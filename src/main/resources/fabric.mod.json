@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "manhunt_tracker",
+  "version": "${version}",
+  "name": "Hunter's Compass Plus",
+  "description": "/tracker sethunter <player> to assign hunters, /tracker setrunner <player> to assign runners, /tracker start to lock compasses and track, and /tracker stop to end.",
+  "authors": [
+    "Nowrid Ifrad Snigdho"
+  ],
+  "icon": "icon.png",
+  "license": "All Rights Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.nis.tracker.TrackerMod"
+    ]
+  },
+  "mixins": [
+    "manhunt_tracker.mixins.json"
+  ],
+  "depends": {
+    "java": ">=25",
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "fabric-api": "*"
+  }
+}

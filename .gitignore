@@ -1,0 +1,21 @@
+# Gradle files
+.gradle/
+build/
+bin/
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Fabric Loom run directories (if generated)
+run/
+run-client/
+run-server/
